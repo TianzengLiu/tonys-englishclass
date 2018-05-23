@@ -48,7 +48,7 @@
                 
             } else {
                 
-                $error = '<div class="alert alert-success" role="alert"> Thank you for contacting us! Your message was sent. We will get back to you soon!</div>';
+                $error = '<div class="alert alert-danger" role="alert"> Sorry! Please try again!</div>';
             }
                 
             
