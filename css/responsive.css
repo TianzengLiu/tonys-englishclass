@@ -1,0 +1,183 @@
+.slicknav_menu
+{
+    display: none;
+}
+
+
+header
+{
+    margin-top: 0px;
+}
+
+
+.registerpart2
+{
+    display: none;
+}
+
+
+@media screen and (max-width:992px)
+{
+    
+    #menu
+    {
+        display: none;
+       
+    }
+    
+   
+   
+    .slicknav_menu
+    {
+        display: inline-block;
+        position: fixed;
+        background: transparent;
+        z-index: 1000;
+        right: 0;
+        margin-top: -10px;
+        width: 100%;   
+         
+    }
+    
+    .logo-top
+    {
+        margin-bottom:0;
+    }
+    
+    
+    
+    header
+    {
+        display: none;
+        margin-top: 0;
+    }
+   
+    .slider
+    {
+        margin-top: -80px;
+    }
+ 
+    .logo-top
+    {
+       margin-left: 30%;
+       margin-right: 30%;
+    }
+    
+    .slicknav_btn 
+    {
+        background: #2b547e;
+       
+    }
+    
+    
+    .slicknav_nav
+    {
+        background: #2b547e;
+        width: 200px;
+        float: right;
+       
+       
+    }
+    
+    
+    .slicknav_nav li
+    {
+        margin: 0;
+        padding: 0;
+        height: 2.5em;
+        line-height: 2.5em;
+        width: 200px;
+        text-align: center;
+        
+    }
+    
+    .slicknav_nav li a 
+    {
+        margin: 0;
+        padding: 0;
+        transition: all 0s ease-in;
+        
+    }
+    
+    
+    .slicknav_nav li a:hover
+    {
+        color: white;
+        text-decoration: none;
+        background: #357ec7;
+    }
+   
+   .registerpart2
+    {
+        display: block;
+    }
+    .registerpart
+    {
+        display: none;
+    }
+    
+    
+}
+
+
+
+/* 
+
+@media screen and (max-width:330px)
+{
+    
+    
+    .slider a
+    {
+        display: inline-block;
+        width: 100%;
+    }
+    
+
+    .slider .button
+
+    {
+      margin-top:30px;
+    }
+
+    header a img
+    {
+       width:150px;
+       margin-left: 10px;
+    }
+
+    
+}
+*/
+
+
+.gaps 
+{
+    margin-top: 40px;
+}
+
+
+.ourservices h3 
+{
+    font-weight: bold;
+}
+
+
+
+.ourservices h4 
+{
+    font-weight: bold;
+}
+
+.ourservices
+{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
